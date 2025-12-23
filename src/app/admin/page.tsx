@@ -141,7 +141,7 @@ export default function AdminPanel() {
                   <tr className="bg-slate-50/50 border-b border-slate-100">
                     <th className="p-6 text-sm font-bold text-slate-400 uppercase">Información Personal</th>
                     <th className="p-6 text-sm font-bold text-slate-400 uppercase">Detalles</th>
-                    <th className="p-6 text-sm font-bold text-slate-400 uppercase text-center">Identificación</th>
+                    <th className="p-6 text-sm font-bold text-slate-400 uppercase text-center">Consignación</th>
                     <th className="p-6 text-sm font-bold text-slate-400 uppercase text-center">Acciones</th>
                   </tr>
                 </thead>
@@ -215,7 +215,7 @@ export default function AdminPanel() {
             <textarea 
               className="w-full border-2 border-slate-100 bg-slate-50 rounded-2xl p-4 text-black focus:border-rose-500 outline-none transition-all resize-none font-medium"
               rows={4}
-              placeholder="Ej: Foto de identificación ilegible..."
+              placeholder="Ej: Foto de consignación ilegible..."
               onChange={(e) => setMotivo(e.target.value)}
             />
             <div className="flex gap-3 mt-8">
